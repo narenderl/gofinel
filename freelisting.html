@@ -1,0 +1,215 @@
+<html>
+  <head>
+    <title>GO Earnings</title>
+    <!-- Latest compiled and minified CSS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="custom-font">
+    <!-- top-header -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="single-footer-widget">
+              <ul class="social-links">
+                <li>
+                  <a target="_blank" href="#" class="twitter">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="#" class="facebook">
+                    <i class="fa fa-facebook-f"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="#" class="instagram">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fa fa-pinterest"></i>
+                  </a>
+                </li>
+              </ul>
+              <div class="login">
+                <img src="img/ICON/user.png" />
+                <a href="login.html">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- Site Navigation Start --->
+
+    <!-- end-header -->
+    <!-- banner-area -->
+
+    <section>
+      <div class="container">
+        <div class="section-title ad-class">
+          <h2>Free Listing</h2>
+          <div class="bar"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="main">
+              <h4>
+                List your business for FREE with India's leading local search
+                engine
+              </h4>
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="contact-form">
+                    <input
+                      type="text"
+                      name="your-name"
+                      placeholder="Company Name"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                  <div class="contact-form">
+                    <input
+                      type="text"
+                      name="your-subject"
+                      placeholder="Mumbai"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                  <div class="contact-form">
+                    <input
+                      type="text"
+                      name="your-subject"
+                      placeholder="First Name"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                  <div class="contact-form">
+                    <input
+                      type="text"
+                      name="your-subject"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                  <div class="contact-form">
+                    <input type="number" placeholder="Mobile NO" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                  <div class="contact-form">
+                    <input type="number" placeholder="LandLine NO" />
+                  </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                  <div class="contact-form">
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <a href="advertise.html" class="feedback">Advertise</a>
+    <!-- jQuery library -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    <script>
+      $(".product-main").owlCarousel({
+        stagePadding: 50,
+        loop: true,
+        margin: 30,
+        dots: false,
+        autoplay: false,
+        navText: [
+          '<i class="fa fa-chevron-left"></i>',
+          '<i class="fa fa-chevron-right"></i>',
+        ],
+        nav: true,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".brand").owlCarousel({
+          loop: true,
+          margin: 10,
+          autoplay: true,
+          nav: true,
+          dots: false,
+          autoplayTimeout: 2000,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 2,
+              nav: false,
+            },
+            600: {
+              items: 3,
+              nav: false,
+            },
+            1000: {
+              items: 6,
+              nav: true,
+              margin: 20,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
